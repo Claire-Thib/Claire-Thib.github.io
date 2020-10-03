@@ -4,6 +4,7 @@ import linkedin from "./pics/linkedin.png";
 import insta from "./pics/insta.png";
 import resume from "./resume.pdf";
 import "./Home.css";
+import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
 
 class Home extends Component {
   state = {};
@@ -38,6 +39,17 @@ class Home extends Component {
               <img className="logos" src={insta} />{" "}
             </a>
           </div>
+          <ScrollUpButton
+            className="scroller"
+            StopPosition={0}
+            ShowAtPosition={150}
+            EasingType="easeOutCubic"
+            AnimationDuration={500}
+            ContainerClassName="ScrollUpButton__Container"
+            TransitionClassName="ScrollUpButton__Toggled"
+            style={{}}
+            ToggledStyle={{}}
+          />
         </center>
       </div>
     );

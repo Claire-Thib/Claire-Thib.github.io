@@ -13,6 +13,10 @@
   display: block;
 }
 
+.scroller {
+  z-index: 900;
+}
+
 #name {
   font-size: 4em;
   padding-top: 250px;
@@ -39,4 +43,8 @@
   margin: 20px;
   cursor: pointer;
   padding-bottom: 225px;
+}
+
+.logos:hover {
+  opacity: 0.5;
 }

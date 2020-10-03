@@ -53,6 +53,7 @@
 .experiences-section {
   /* height: 100vh; */
   background-color: #f5dddd;
+  z-index: 800;
 }
 
 .projects-section {

@@ -87,7 +87,7 @@ class Experiences extends Component {
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
-        <div className="education">education</div>
+        <div className="education">Education</div>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
