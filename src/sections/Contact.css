@@ -1,34 +1,21 @@
-/* .pic-links {
-  width: 80px;
-  height: 80px;
-  margin: 150px;
-  margin-top: 60px;
-  margin-bottom: 0px;
-  cursor: pointer;
-} */
-
-/* .my-info {
-  cursor: pointer;
-  display: flex;
-  justify-content: space-evenly;
-} */
-
 #end-padding {
-  padding-bottom: 200px;
+  padding: 70px;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
 
-/* ------------------------projects page----------------------- */
+/* ------------------------contact page----------------------- */
 /* -------------------------------------------------------------*/
 
-.entirety ul {
-  list-style-type: none;
+.contact-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
 }
 
 .contact-item {
-  display: flex;
   flex: 1;
   align-items: baseline;
   margin: 0 1rem;
@@ -36,55 +23,52 @@
 }
 
 .contact-link {
-  display: flex;
   flex-flow: column;
-  width: 500px;
+  /* width: 500px; */
   filter: drop-shadow(0 6px 20px #f5dddd);
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
   padding-bottom: 20px;
+  color: black;
+  font-size: 30px;
 }
 
-.contact_img {
-  position: absolute;
+.contact-img {
+  /* position: absolute; */
   cursor: pointer;
-  top: 0;
-  /* right: 0; */
-  /* bottom: 0;
-  left: 0; */
+  /* top: 0; */
   display: block;
   width: 80px;
   height: 80px;
   /* object-fit: fill; */
   transition: all 0.2s linear;
+  margin-left: auto;
+  margin-right: auto;
   /* display: flex;
   align-items: baseline; */
 }
 
-.contact_img:hover {
-  /* transform: scale(0.95);
-  opacity: 0.5; */
-}
-
-.contact_info {
-  padding-top: 100px;
+.contact-info {
+  padding-top: 10px;
   padding-left: 30px;
 }
 
-.contact_text {
+.contact-text {
   color: black;
   font-size: 25px;
   /* line-height: 20px; */
-  width: 450px;
+  /* width: 450px; */
   align-items: center;
+  font-weight: lighter;
+  text-decoration: underline;
 }
 
 @media (max-width: 1200px) {
   .pic-links {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
   }
   /* .my-info {
     display: flex;

@@ -19,7 +19,7 @@ class Projects extends Component {
                 <ul className="project_items">
                   <IndividProject
                     src={ecoasis}
-                    link="https://google.com"
+                    link="https://github.com/Claire-Thib/ecoasis"
                     text="Ecoasis"
                     label="Website, Environmental, Educational"
                   />
@@ -29,13 +29,6 @@ class Projects extends Component {
                     text="CoFED"
                     label="Web, Co-op"
                   />
-
-                  {/* <IndividProject
-                    src={ecoasis}
-                    link="https://www.instagram.com"
-                    text="Travel"
-                    label="Luxury"
-                  /> */}
                 </ul>
               </div>
             </div>

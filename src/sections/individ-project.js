@@ -1,5 +1,8 @@
 import React from "react";
 
+// credit to briancodex on github for his card code
+// https://github.com/briancodex
+
 function IndividProject(props) {
   return (
     <>
