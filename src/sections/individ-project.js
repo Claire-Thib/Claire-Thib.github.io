@@ -1,25 +1,31 @@
 import React from "react";
+import "./Projects.css";
+import insta from "./pics/insta.png";
 
-// credit to briancodex on github for his card code
+// credit/inspiration to briancodex on github for his card code
 // https://github.com/briancodex
 
-function IndividProject(props) {
+function IndividProject({ info }) {
   return (
     <div className="projects-item">
       <a
         className="project-link"
         target="_blank"
         rel="noopener noreferrer"
-        href={props.link}
+        href={info.link}
       >
         <div className="project-info">
-          <h5 className="project-text">{props.text}</h5>
+          <h5 className="project-text">{info.Name}</h5>
         </div>
-        <figure className="project-tags" data-category={props.label}>
-          <img className="project-img" alt="Project Image" src={props.src} />
+        <figure className="project-tags" data-category={info.label}>
+          <img
+            className="project-img"
+            alt="Project Image"
+            src={info.logo[0].url}
+          />
         </figure>
         <div className="instru">
-          Project created using {props.languages} <br />
+          Project created using {info.languages} <br />
           Click on image to see more
         </div>
       </a>
