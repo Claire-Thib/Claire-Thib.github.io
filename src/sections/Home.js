@@ -2,17 +2,87 @@ import React from "react";
 import github from "./pics/github.png";
 import linkedin from "./pics/linkedin.png";
 import insta from "./pics/insta.png";
-import resume from "./resume.pdf";
 import "./Home.css";
 import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function Home() {
+  const [width, setWidth] = React.useState(window.innerWidth);
+
+  const updateWidthAndHeight = () => {
+    setWidth(window.innerWidth);
+  };
+
+  React.useEffect(() => {
+    window.addEventListener("resize", updateWidthAndHeight);
+    return () => window.removeEventListener("resize", updateWidthAndHeight);
+  });
+
   return (
     <div className="home-section" id="home">
       <center>
         <div id="name">claire thibodeaux</div>
 
         <div id="aspiring">aspiring developer and engineer</div>
+        
+        {width < 700 &&
+        <div className="short-nav">
+      <ul>
+        <li>
+          <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            about
+          </Link>
+        </li>
+
+        <li>
+          <Link
+            activeClass="active"
+            to="experiences"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            experiences
+          </Link>
+        </li>
+
+        <li>
+          <Link
+            activeClass="active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            projects
+          </Link>
+        </li>
+
+        <li>
+          <Link
+            activeClass="active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            contact
+          </Link>
+        </li>
+      </ul>
+    </div>
+}
+
         <div>
           <a
             target="_blank"
@@ -36,6 +106,8 @@ function Home() {
             <img className="logos" src={insta} />{" "}
           </a>
         </div>
+        <h1>{`Window width = ${width}`}</h1>
+
         <ScrollUpButton
           className="scroller"
           StopPosition={0}

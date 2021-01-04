@@ -8,8 +8,6 @@
   font-size: 4em;
   padding-top: 8%;
   padding-left: 50px;
-  /* text-align: left; */
-  /* margin-left: 10%; */
   display: block;
 }
 
@@ -36,7 +34,7 @@
   justify-content: space-around;
   width: 45px;
   height: 45px;
-  padding-top: 4%;
+  padding-top: 3%;
   margin: 20px;
   cursor: pointer;
   padding-bottom: 225px;
@@ -44,4 +42,30 @@
 
 .logos:hover {
   opacity: 0.5;
+}
+
+.short-nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.short-nav ul li {
+  color: rgb(56, 55, 55);
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.short-nav ul li:hover {
+  font-size: 22px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .logos {
+    padding-top: 0.005%;
+  }
 }
