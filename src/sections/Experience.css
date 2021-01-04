@@ -1,6 +1,5 @@
 .education {
   font-size: 2em;
-  /* padding-top: 8%; */
   display: block;
   padding: 50px;
 }
@@ -11,4 +10,8 @@
   text-align: left;
   padding-left: 100px;
   padding-bottom: 20px;
+}
+
+.vertTimeline {
+  filter: drop-shadow(0 6px 20px #b9b9b9ab);
 }

@@ -14,7 +14,6 @@ function Home() {
 
         <div id="aspiring">aspiring developer and engineer</div>
         <div>
-          {/* <img src={github} className="logos" id="github" alt="github logo" /> */}
           <a
             target="_blank"
             rel="noopener noreferrer"

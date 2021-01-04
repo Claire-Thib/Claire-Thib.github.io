@@ -46,7 +46,6 @@ function About() {
           </button>
         </div>
       </div>
-      {/* <button id= "resume" onClick={()=> window.open(resume, "_blank")}>Open Resume</button> */}
     </div>
   );
 }

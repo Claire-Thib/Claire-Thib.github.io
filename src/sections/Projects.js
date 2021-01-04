@@ -38,20 +38,6 @@ function Projects() {
         {proj.map((record) => (
           <IndividProject key={record.id} info={record.fields} />
         ))}
-        {/* <IndividProject
-          src={ecoasis}
-          link="https://github.com/Claire-Thib/ecoasis"
-          text="Ecoasis"
-          label="Website, Environmental, Educational"
-          languages="Javascript, HTML, CSS"
-        />
-        <IndividProject
-          src={cofed}
-          link="https://www.cofed.coop/"
-          text="CoFED"
-          label="Web, Co-op"
-          languages="React"
-        /> */}
       </div>
     </div>
   );

@@ -1,9 +1,7 @@
 import React from "react";
 import {
-  VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
-import Experiences from "./Experiences.js";
 import "./Experience.css";
 
 export default function SpecificExper({ info }) {

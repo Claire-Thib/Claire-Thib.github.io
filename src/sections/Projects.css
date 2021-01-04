@@ -16,14 +16,9 @@
   text-align: left;
 }
 
-/* .project-items {
-  margin-bottom: 24px;
-} */
-
 .projects-item {
   align-self: center;
   flex: 1;
-  /* align-items: baseline; */
   margin: 0 1rem;
   border-radius: 10px;
 }
