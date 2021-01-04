@@ -1,6 +1,5 @@
 import React from "react";
 import "./Projects.css";
-import insta from "./pics/insta.png";
 
 // credit/inspiration to briancodex on github for his card code
 // https://github.com/briancodex
@@ -25,8 +24,9 @@ function IndividProject({ info }) {
           />
         </figure>
         <div className="instru">
-          Project created using {info.languages} <br />
-          Click on image to see more
+          <b>Languages: </b>{info.languages} <br />
+          <br />
+          <b> What: </b>{info.what}  <br />
         </div>
       </a>
     </div>

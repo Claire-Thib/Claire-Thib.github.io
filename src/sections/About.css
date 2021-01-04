@@ -71,13 +71,14 @@
 }
 
 #resume {
-  background-color: #757575;
+  background-color: white;
+  border: 1px solid black;
   color: black;
   font-family: "Oswald";
   font-size: 20px;
   padding: 10px 40px 10px 40px;
   margin: 80px;
   border-radius: 20px;
-  border: none;
+  /* border: none; */
   cursor: pointer;
 }

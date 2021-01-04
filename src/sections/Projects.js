@@ -4,10 +4,6 @@ import axios from "axios";
 import "./Projects.css";
 import IndividProject from "./individ-project.js";
 
-import insta from "./pics/insta.png";
-import ecoasis from "./pics/ecoasis.png";
-import cofed from "./pics/cofed.png";
-
 function Projects() {
   const [proj, setProj] = React.useState(null);
   async function fetchData() {
