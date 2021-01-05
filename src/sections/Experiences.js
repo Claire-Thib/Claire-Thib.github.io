@@ -33,13 +33,13 @@ function Experiences() {
 
   return (
     <div className="experiences-section" id="experiences">
-      <div className="title">experiences</div>
-      <div class="extra-text">
+      <div className="exper-title">experiences</div>
+      <div class="exper-text">
         {" "}
         let me tell you about my experiences and education
       </div>
 
-      <VerticalTimeline className= "vertTimeline" mode="alternate">
+      <VerticalTimeline className= "vert-timeline" mode="alternate">
         {exper.map((record) => (
           <SpecificExper key={record.id} info={record.fields} />
         ))}

@@ -29,7 +29,7 @@ function Projects() {
 
   return (
     <div className="projects-section" id="projects">
-      <div className="title">projects</div>
+      <div className="proj-title">projects</div>
       <div className="project-container">
         {proj.map((record) => (
           <IndividProject key={record.id} info={record.fields} />

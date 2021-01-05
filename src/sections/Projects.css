@@ -4,9 +4,10 @@
 /* ------------------------projects page----------------------- */
 /* -------------------------------------------------------------*/
 
-.title {
+.proj-title {
   font-size: 4em;
   display: block;
+  padding: 8% 0px 0px 50px;
 }
 
 .project-container {
@@ -14,11 +15,6 @@
   flex-flow: row wrap;
   justify-content: center;
   text-align: left;
-}
-
-.projects-item {
-  align-self: center;
-  border-radius: 10px;
 }
 
 .project-link {
@@ -32,9 +28,8 @@
   overflow: hidden;
   text-decoration: none;
   padding-bottom: 20px;
-  margin-bottom: 20px;
-  margin-left: 30px;
-  margin-top: 20px;
+  margin: 20px 0px 20px 30px;
+  background-color: #f4f0f5;
 }
 
 .fade-img {
@@ -65,18 +60,15 @@
 
 .project-img {
   position: absolute;
-  border-radius: 40px;
+  text-align: center;
+  border-radius: 30px;
   cursor: pointer;
   border: 2px solid black;
   top: 0;
-  display: block;
-  width: 100vw;
-  max-width: 100%;
-  height: 350px;
-  max-height: 100%;
+  width: 80%;
+  height: 100%;
+  margin-left: 3%;
   transition: all 0.2s linear;
-  display: flex;
-  align-items: baseline;
 }
 
 .project-img:hover {
@@ -98,13 +90,27 @@
 .instru {
   color: black;
   text-align: center;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin: 0px 15px 0px 15px;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1150px) {
   .project-container {
-    display: flex;
-    flex-direction: row wrap;
+    margin-left: 20%;
+  }
+  .project-link {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 909px) {
+  .project-img {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 530px) {
+  .proj-title {
+    text-align: center;
+    padding: 8% 0px 20px 0px;
   }
 }

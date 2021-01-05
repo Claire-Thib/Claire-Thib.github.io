@@ -35,7 +35,7 @@ function Home() {
             spy={true}
             smooth={true}
             offset={0}
-            duration={500}
+            duration={600}
           >
             about
           </Link>
@@ -48,7 +48,7 @@ function Home() {
             spy={true}
             smooth={true}
             offset={0}
-            duration={500}
+            duration={700}
           >
             experiences
           </Link>
@@ -61,7 +61,7 @@ function Home() {
             spy={true}
             smooth={true}
             offset={0}
-            duration={500}
+            duration={800}
           >
             projects
           </Link>
@@ -74,7 +74,7 @@ function Home() {
             spy={true}
             smooth={true}
             offset={0}
-            duration={500}
+            duration={900}
           >
             contact
           </Link>
@@ -89,24 +89,23 @@ function Home() {
             rel="noopener noreferrer"
             href="https://github.com/Claire-Thib"
           >
-            <img className="logos" src={github} />{" "}
+            <img className="logos" alt="Github Logo" src={github} />{" "}
           </a>
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.linkedin.com/in/claire-thibodeaux-7882b0168/"
           >
-            <img className="logos" src={linkedin} />{" "}
+            <img className="logos" alt="Linkedin Logo" src={linkedin} />{" "}
           </a>
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.instagram.com/claire.thx/"
           >
-            <img className="logos" src={insta} />{" "}
+            <img className="logos" alt="Instagram Logo" src={insta} />{" "}
           </a>
         </div>
-        <h1>{`Window width = ${width}`}</h1>
 
         <ScrollUpButton
           className="scroller"

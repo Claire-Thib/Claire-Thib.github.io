@@ -19,7 +19,7 @@ function IndividProject({ info }) {
         <figure className="project-tags" data-category={info.label}>
           <img
             className="project-img"
-            alt="Project Image"
+            alt="Project Screenshot"
             src={info.logo[0].url}
           />
         </figure>

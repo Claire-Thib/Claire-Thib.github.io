@@ -1,17 +1,36 @@
+.exper-title {
+  font-size: 4em;
+  display: block;
+  padding: 8% 0px 0px 50px;
+}
+
 .education {
   font-size: 2em;
   display: block;
   padding: 50px;
 }
 
-.extra-text {
+.exper-text {
   font-size: 20px;
   font-family: "Oxygen";
   text-align: left;
-  padding-left: 100px;
-  padding-bottom: 20px;
+  padding: 0px 0px 20px 100px;
 }
 
-.vertTimeline {
+.vert-timeline {
   filter: drop-shadow(0 6px 20px #b9b9b9ab);
+}
+
+@media (max-width: 530px) {
+  .exper-title {
+    text-align: center;
+    padding: 8% 0px 0px 0px;
+  }
+  .exper-text {
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+  }
+  .education {
+    text-align: center;
+  }
 }

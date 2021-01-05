@@ -8,8 +8,8 @@ import SpecificContact from "./SpecificContact.js";
 function Contact() {
   return (
     <div className="contact-section" id="contact">
-      <div className="title">contact</div>
-      <div className="extra-text">I would love to connect with you</div>
+      <div className="contact-title">contact</div>
+      <div className="contact-blurb">I would love to connect with you</div>
       <div className="contact-container">
         <SpecificContact
           src={email}
