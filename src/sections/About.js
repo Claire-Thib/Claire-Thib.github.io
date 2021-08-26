@@ -37,7 +37,7 @@ function About() {
             <b>Location: </b> Berkeley, California
           </div>
           <div>
-            <b>Age: </b> 18
+            <b>Age: </b> 19
           </div>
         </div>
         <div>
