@@ -52,7 +52,7 @@ function Experiences() {
           className="vertical-timeline-element--education"
           contentStyle={{ background: "#F9F9F9", color: "#000000" }}
           contentArrowStyle={{ borderRight: "7px solid  #F9F9F9" }}
-          date="August 2020 - May 2024"
+          date="August 2020 - May 2023"
           iconStyle={{ background: "rgb(0,0,0)", color: "#fff" }}
           
         >

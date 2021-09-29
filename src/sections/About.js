@@ -13,9 +13,9 @@ function About() {
         <div>
           <div id="let-me">let me tell you about myself</div>
           <p id="introduction">
-            I am a University of California, Berkeley undergraduate student in
-            the class of 2024 with the intended computer science major. I am
-            exploring all the different options in the tech industry at the
+            I am a University of California, Berkeley undergraduate student
+            with the intended computer science major. I am exploring
+            all the different options in the tech industry at the
             moment to see what I will pursue in the future. I also have an
             interest in environmental science and the cross between computers
             and the environment
